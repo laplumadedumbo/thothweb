@@ -34,7 +34,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\AjaxControlToolkit\AjaxControlToolkit\bin\Release\AjaxControlToolkit.dll</HintPath>
     </Reference>
-    <Reference Include="RichTextEditor, Version=1.0.3076.39377, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core">
@@ -101,6 +100,12 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\RTE\RichTextEditor\RichTextEditor.csproj">
+      <Project>{D0166C2E-AAD3-4EB5-8F30-F7F0C83640D6}</Project>
+      <Name>RichTextEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
