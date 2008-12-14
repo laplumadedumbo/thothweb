@@ -102,12 +102,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\RTE\RichTextEditor\RichTextEditor.csproj">
-      <Project>{D0166C2E-AAD3-4EB5-8F30-F7F0C83640D6}</Project>
-      <Name>RichTextEditor</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
