@@ -1,0 +1,262 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D0166C2E-AAD3-4EB5-8F30-F7F0C83640D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AjaxControls</RootNamespace>
+    <AssemblyName>RichTextEditor</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseToolBarButton.cs" />
+    <Compile Include="BaseToolBarItemData.cs" />
+    <Compile Include="EmbeddedResource.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="i18n.cs" />
+    <Compile Include="Properties.cs" />
+    <Compile Include="ToolBarDropDownButton.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rte.cs" />
+    <Compile Include="TabControl.cs" />
+    <Compile Include="TabStripControl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TabStripStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolBar.cs" />
+    <Compile Include="ToolBarButtonItemData.cs" />
+    <Compile Include="ToolBarButton.cs" />
+    <Compile Include="ToolBarDropDownItemData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TabStrip.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ToolBar.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Event.js" />
+    <EmbeddedResource Include="Microsoft.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RteStartup.js" />
+    <EmbeddedResource Include="RichTextEditor.js" />
+    <EmbeddedResource Include="ColorPicker.js" />
+    <EmbeddedResource Include="EmoticonPicker.js" />
+    <EmbeddedResource Include="TabStrip.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Toolbar.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="edit.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\emoticons\airplane.gif" />
+    <EmbeddedResource Include="images\emoticons\asl.gif" />
+    <EmbeddedResource Include="images\emoticons\bat.gif" />
+    <EmbeddedResource Include="images\emoticons\beer.gif" />
+    <EmbeddedResource Include="images\emoticons\blacksheep.gif" />
+    <EmbeddedResource Include="images\emoticons\bowl.gif" />
+    <EmbeddedResource Include="images\emoticons\cake.gif" />
+    <EmbeddedResource Include="images\emoticons\camera.gif" />
+    <EmbeddedResource Include="images\emoticons\car.gif" />
+    <EmbeddedResource Include="images\emoticons\cat.gif" />
+    <EmbeddedResource Include="images\emoticons\clap.gif" />
+    <EmbeddedResource Include="images\emoticons\clock.gif" />
+    <EmbeddedResource Include="images\emoticons\cloud_lightning.gif" />
+    <EmbeddedResource Include="images\emoticons\cloud_rain.gif" />
+    <EmbeddedResource Include="images\emoticons\coffee.gif" />
+    <EmbeddedResource Include="images\emoticons\computer.gif" />
+    <EmbeddedResource Include="images\emoticons\dog.gif" />
+    <EmbeddedResource Include="images\emoticons\emo.gif" />
+    <EmbeddedResource Include="images\emoticons\envelope.gif" />
+    <EmbeddedResource Include="images\emoticons\film.gif" />
+    <EmbeddedResource Include="images\emoticons\fingerscrossed.gif" />
+    <EmbeddedResource Include="images\emoticons\girl_handsacrossamerica.gif" />
+    <EmbeddedResource Include="images\emoticons\guy_handsacrossamerica.gif" />
+    <EmbeddedResource Include="images\emoticons\handcuffs.gif" />
+    <EmbeddedResource Include="images\emoticons\heart.gif" />
+    <EmbeddedResource Include="images\emoticons\heart_broken.gif" />
+    <EmbeddedResource Include="images\emoticons\hug_dude.gif" />
+    <EmbeddedResource Include="images\emoticons\hug_girl.gif" />
+    <EmbeddedResource Include="images\emoticons\island.gif" />
+    <EmbeddedResource Include="images\emoticons\kiss.gif" />
+    <EmbeddedResource Include="images\emoticons\lightbulb.gif" />
+    <EmbeddedResource Include="images\emoticons\martini.gif" />
+    <EmbeddedResource Include="images\emoticons\messenger.gif" />
+    <EmbeddedResource Include="images\emoticons\mobile.gif" />
+    <EmbeddedResource Include="images\emoticons\money.gif" />
+    <EmbeddedResource Include="images\emoticons\moon.gif" />
+    <EmbeddedResource Include="images\emoticons\music_note.gif" />
+    <EmbeddedResource Include="images\emoticons\phone.gif" />
+    <EmbeddedResource Include="images\emoticons\pizza.gif" />
+    <EmbeddedResource Include="images\emoticons\plate.gif" />
+    <EmbeddedResource Include="images\emoticons\present.gif" />
+    <EmbeddedResource Include="images\emoticons\rainbow.gif" />
+    <EmbeddedResource Include="images\emoticons\rose.gif" />
+    <EmbeddedResource Include="images\emoticons\rose_wilted.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_angel.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_angry.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_baringteeth.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_confused.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_cry.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_devil.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_embaressed.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_eyeroll.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_nerd.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_omg.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_party.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_regular.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_sad.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_sarcastic.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_secret.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_shades.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_sick.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_sniff.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_speedy.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_teeth.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_thinking.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_tongue.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_whatchutalkingabout.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_wink.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_yawn.gif" />
+    <EmbeddedResource Include="images\emoticons\smile_zipit.gif" />
+    <EmbeddedResource Include="images\emoticons\smoking.gif" />
+    <EmbeddedResource Include="images\emoticons\snail.gif" />
+    <EmbeddedResource Include="images\emoticons\soccerball.gif" />
+    <EmbeddedResource Include="images\emoticons\star.gif" />
+    <EmbeddedResource Include="images\emoticons\sun.gif" />
+    <EmbeddedResource Include="images\emoticons\thumbs_down.gif" />
+    <EmbeddedResource Include="images\emoticons\thumbs_up.gif" />
+    <EmbeddedResource Include="images\emoticons\turtle.gif" />
+    <EmbeddedResource Include="images\emoticons\umbrella.gif" />
+    <EmbeddedResource Include="images\emoticons\xbox.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\activetab-left-bg.gif" />
+    <EmbeddedResource Include="images\activetab-right-bg.gif" />
+    <EmbeddedResource Include="images\BlueCaptionBar.png" />
+    <EmbeddedResource Include="images\ForumPost.png" />
+    <EmbeddedResource Include="images\BlueToolBarImage.png" />
+    <EmbeddedResource Include="images\inactivetab-left-bg.gif" />
+    <EmbeddedResource Include="images\inactivetab-right-bg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\ClassicToolBarImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\ClassicCaptionBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\DropDownList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="i18N.xsd">
+      <SubType>
+      </SubType>
+    </EmbeddedResource>
+    <None Include="i18N.xsx">
+      <DependentUpon>i18N.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="i18N.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\ClassicDropDownList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HyperLinkDialog.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
