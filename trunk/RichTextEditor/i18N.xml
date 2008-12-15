@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18N xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='i18N.xsd'>
+  <Languages>
+    <Language code='en-us'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Please use CTRL+C for copy, CTRL+X for cut, and CTRL+V for paste" />
+        <Message Id="2" Msgstring="To create a new code block, please enter your code in the post editor below, highlight it, and select the “Code Block” button."/>
+        <Message Id="CodeBlock" Msgstring="Code Block"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Cut"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Paste"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Copy"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Bold"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Italics"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Underline"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Increase Indent"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Decrease Indent"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Left Justify"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Center Justify"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Right Justify"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Bulleted List"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Numbered List"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Insert Hyperlink"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Code Block"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Text Color"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Background Color"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Emoticons"/>
+      </Messages>
+    </Language>
+    <Language code='cs-cz'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Pro zkopírování použijte kombinaci kláves CTRL+C, pro vyjmutí kombinaci CTRL+X a pro vložení kombinaci CTRL+V." />
+        <Message Id="2" Msgstring="To create a new code block, please enter your code in the post editor below, highlight it, and select the “Code Block” button."/>
+        <Message Id="CodeBlock" Msgstring="Blok kódu"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Vyjmout"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Vložit"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Kopírovat"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Tučné"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Kurzíva"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Podtrhnout"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Zvětšit odsazení"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Zmenšit odsazení"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Zarovnat vlevo"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Center Justify"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Zarovnat vpravo"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Odrážky"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Číslování"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Hypertextový odkaz"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Code Block"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Barva popředí"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Barva pozadí"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Emotikona"/>
+      </Messages>
+    </Language>
+    <Language code='es-es'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Use CTRL+C para copiar, CTRL+X para cortar y CTRL+V para pegar" />
+        <Message Id="2" Msgstring="Para crear un bloque de código nuevo, escriba su código en el editor que aparece a continuación, resáltelo y seleccione el botón &quot;Bloque de código&quot;."/>
+        <Message Id="CodeBlock" Msgstring="Bloque de código"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Cortar texto"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Pegar texto"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Copiar texto"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Negrita"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Cursiva"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Subrayado"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Aumentar sangr&amp;iacute;a"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Reducir sangr&amp;iacute;a"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Alinear a la izquierda"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Alinear al centro"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Alinear a la derecha"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Lista con vi&amp;ntilde;etas"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Lista numerada"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Insertar v&amp;iacute;nculo"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Bloque de código"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Color de texto"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Color de fondo"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Iconos gestuales"/>
+      </Messages>
+    </Language>
+    <Language code='de-de'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Drücken Sie STRG+C zum Kopieren, STRG+X zum Ausschneiden und STRG+V zum Einfügen" />
+        <Message Id="2" Msgstring="Um einen neuen Abschnitt mit Quellcode zu erstellen, geben Sie bitte zuerst den Code im Beitragseditor ein, markieren ihn, und klicken dann auf die „Quellcodeabschnitt“ Schaltfläche."/>
+        <Message Id="CodeBlock" Msgstring="Quellcodeabschnitt"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Text ausschneiden"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Text einf&amp;uuml;gen"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Text kopieren"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Fett"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Kursiv"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Unterstrichen"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Einzug vergr&amp;ouml;&amp;szlig;ern"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Einzug verkleinern"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Linksb&amp;uuml;ndig"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Zentriert"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Rechtsb&amp;uuml;ndig"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Aufz&amp;auml;hlung"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Nummerierung"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Link einf&amp;uuml;gen"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Quellcodeabschnitt"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Textfarbe"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Hintergrundfarbe"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Emoticons"/>
+      </Messages>
+    </Language>
+    <Language code='fr-fr'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Utilisez la commande CTRL+C pour copier du texte, CTRL+X pour couper et CTRL+V pour coller." />
+        <Message Id="2" Msgstring="Pour créer un nouvel extrait de code, veuillez entrer votre code dans l’éditeur de message ci-dessous, selectionez-le, et cliquez sur le bouton « Extrait de code »."/>
+        <Message Id="CodeBlock" Msgstring="Extrait de code"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Couper"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Coller"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Copier"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Gras"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Italique"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Soulign&amp;eacute;"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Augmenter le retrait"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Diminuer le retrait"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Aligner &amp;agrave; gauche"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Centrer"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Aligner &amp;grave; droite"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Liste &amp;agrave; puces"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Liste num&amp;eacute;rot&amp;eacute;e"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Ins&amp;eacute;rer un lien"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Extrait de code"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Couleur du texte"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Couleur d\'arri&amp;egrave;re-plan"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="&amp;eacute;motic&amp;ocirc;nes"/>
+      </Messages>
+    </Language>
+    <Language code='it-it'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Usare CTRL+C per copiare, CTRL+X per tagliare e CTRL+V per incollare" />
+        <Message Id="2" Msgstring="Per creare un nuovo blocco di codice, immettere il codice nel seguente post editor, evidenziarlo e selezionare il pulsante “Blocco di codice”. "/>
+        <Message Id="CodeBlock" Msgstring="Blocco di codice"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Taglia"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Incolla"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Copia"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Grassetto"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Corsivo"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Sottolineato"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Aumenta rientro"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Riduci rientro"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Allinea a sinistra"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Centra"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Allinea a destra"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Elenco puntato"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Elenco numerato"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Inserisci collegamento"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Code Block"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Colore del testo"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Colore di sfondo"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Emoticons"/>
+      </Messages>
+    </Language>
+    <Language code='ja-jp'>
+      <Fonts>
+        <Font Name='ＭＳ Ｐゴシック' Description='MS PGothic'/>
+        <Font Name='ＭＳ ゴシック' Description='MS Gothic'/>
+        <Font Name='ＭＳ Ｐ明朝' Description='MS PMincho' />
+        <Font Name='ＭＳ 明朝' Description='MS Mincho'/>
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="コピーするには Ctrl + C、切り取るには Ctrl + X、貼り付けるには Ctrl + V を使用してください。" />
+        <Message Id="2" Msgstring="テキストを選択してから、ボタンをクリックしてください"/>
+        <Message Id="CodeBlock" Msgstring="コード ブロック"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="切り取り"/>
+        <Message Id="Paste"  Group="ToolTip" Msgstring="貼り付け"/>
+        <Message Id="Copy"  Group="ToolTip" Msgstring="コピー"/>
+        <Message Id="Bold"  Group="ToolTip" Msgstring="太字"/>
+        <Message Id="Italics"  Group="ToolTip" Msgstring="斜体"/>
+        <Message Id="Underline"  Group="ToolTip" Msgstring="下線"/>
+        <Message Id="Indent"  Group="ToolTip" Msgstring="インデント"/>
+        <Message Id="Outdent"  Group="ToolTip" Msgstring="インデント解除"/>
+        <Message Id="LeftJustify"  Group="ToolTip" Msgstring="左揃え"/>
+        <Message Id="CenterJustify"  Group="ToolTip" Msgstring="中央揃え"/>
+        <Message Id="RightJustify"  Group="ToolTip" Msgstring="右揃え"/>
+        <Message Id="BulletedList"  Group="ToolTip" Msgstring="箇条書き"/>
+        <Message Id="NumberedList"  Group="ToolTip" Msgstring="番号付きリスト"/>
+        <Message Id="Hyperlink"  Group="ToolTip" Msgstring="リンクの挿入"/>
+        <Message Id="MCodeBlock"  Group="ToolTip" Msgstring="コード ブロック"/>
+        <Message Id="FgColor"  Group="ToolTip" Msgstring="テキストの色"/>
+        <Message Id="BgColor"  Group="ToolTip" Msgstring="背景色"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="絵文字"/>
+      </Messages>
+    </Language>
+    <Language code='ko-kr'>
+      <Fonts>
+        <Font Name='굴림'  Description='Gulim'/>
+        <Font Name='굴림체' Description='GulimChe'/>
+        <Font Name='궁서' Description='Gungsuh'/>
+        <Font Name='궁서체' Description='GungsuhChe'/>
+        <Font Name='돋움' Description='Dotum'/>
+        <Font Name='돋움체' Description='DotumChe'/>
+        <Font Name='바탕' Description='Batang' />
+        <Font Name='바탕체' Description='BatangChe' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="복사하려면 Ctrl+C 를, 잘라내려면 Ctrl+X 를, 붙여 넣으려면 Ctrl+V 를 사용하십시오." />
+        <Message Id="2" Msgstring="새 코드 블록을 만들려면 아래 사후 편집기(post editor)에 코드를 입력하고 강조 표시한 다음 “코드 블록” 단추를 선택하십시오. "/>
+        <Message Id="CodeBlock" Msgstring="코드 블록"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="잘라내기"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="붙여넣기"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="복사하기"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="굵게"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="기울임꼴"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="밑줄"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="들여쓰기"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="내어쓰기"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="왼쪽 맞춤"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="가운데 맞춤"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="오른쪽 맞춤"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="글머리표"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="번호 매기기"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="하이퍼링크 삽입"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="코드 블록"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="텍스트 색"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="배경색"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="이모티콘 삽입"/>
+      </Messages>
+    </Language>
+    <Language code='pt-br'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Use CTRL+C para copiar, CTRL+X para recortar e CTRL+V para colar." />
+        <Message Id="2" Msgstring="Para criar um novo bloco de códigos, digite seu código no editor abaixo, realce-o e selecione o botão &quot;Bloco de Códigos&quot;."/>
+        <Message Id="CodeBlock" Msgstring="Bloco de Códigos"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Recortar Texto"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Colar Texto"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Copiar Texto"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Negrito"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Itálico"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Sublinhado"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Aumentar Recuo"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Diminuir Recuo"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Justificar à Esquerda"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Justificar no Centro"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Justificar à Direita"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Lista com Marcadores"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Lista Numerada"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Inserir Link"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Bloco de Códigos"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Cor do Texto"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Cor do Plano de Fundo"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Emoticons"/>
+      </Messages>
+    </Language>
+    <Language code='ru-ru'>
+      <Fonts>
+        <Font Name='Arial' Description='Arial' />
+        <Font Name='Courier' Description='Courier' />
+        <Font Name='Tahoma' Description='Tahoma' />
+        <Font Name='Times New Roman' Description='Times New Roman' />
+        <Font Name='Verdana' Description='Verdana' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Используйте CTRL+C для копирования, CTRL+X для вырезания и CTRL+V для вставки" />
+        <Message Id="2" Msgstring="Для того, чтобы вставить код в сообщение, введите его в форме ответа, выделите и нажмите кнопку «Образец кода»"/>
+        <Message Id="CodeBlock" Msgstring="Образец кода"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Вырезать текст"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Вставить текст"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Копировать текст"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Полужирный"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Italics"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Подчеркивание"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Увеличить отступ"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Уменьшить отступ"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Выровнять по левому краю"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Выровнять по центру"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Выровнять по правому краю"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Маркированный список"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Нумерованный список"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Вставить ссылку"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Образец кода"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Цвет текста"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Цвет фона"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Значки настроения"/>
+      </Messages>
+    </Language>
+    <Language code='zh-cn'>
+      <Fonts>
+        <Font Name='宋体' Description='Simsun'/>
+        <Font Name='黑体' Description='Simhei'/>
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="复制请使用 CTRL+C，剪切请使用 CTRL+X，粘贴请使用 CTRL+V。" />
+        <Message Id="2" Msgstring="如果您想将输入内容标记为程序块，请先在下面的编辑框内输入，然后选中需要标记的内容，再点击“程序块”按钮。"/>
+        <Message Id="CodeBlock" Msgstring="程序块"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="剪切文本"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="粘贴文本"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="复制文本"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="加粗"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="倾斜"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="下划线"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="增加缩进"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="减小缩进"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="左对齐"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="居中"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="右对齐"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="项目符号列表"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="编号列表"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="插入链接"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="程序块"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="文本颜色"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="背景色"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="图释"/>
+      </Messages>
+    </Language>
+    <Language code='zh-hk'>
+      <Fonts>
+        <Font Name='新細明體' Description='PMingLiU'/>
+        <Font Name='標楷體' Description='DFKai-SB'/>
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Please use CTRL+C for copy, CTRL+X for cut, and CTRL+V for paste" />
+        <Message Id="2" Msgstring="如果您想建立一段新的程式碼區塊, 請在底下的編輯框輸入您的程式碼, 將這些輸入的程式碼反白,然後按下程式碼區塊按鈕即可。"/>
+        <Message Id="CodeBlock" Msgstring="程式碼區塊"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="剪下文字"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="貼上文字"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="複製文字"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="粗體"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="斜體"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="加底線"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="增加縮排"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="減少縮排"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="靠左對齊"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="置中對齊"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="靠右對齊"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="項目清單"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="編號清單"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="插入連結"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="程式碼區塊"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="文字色彩"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="背景色彩"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="表情符號"/>
+      </Messages>
+    </Language>
+    <Language code='zh-tw'>
+      <Fonts>
+        <Font Name='新細明體' Description='PMingLiU'/>
+        <Font Name='標楷體' Description='DFKai-SB'/>
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="請使用 CTRL+C 進行複製作業，使用 CTRL+X 進行剪下作業，以及使用 CTRL+V 進行貼上作業。" />
+        <Message Id="2" Msgstring="如果您想建立一段新的程式碼區塊, 請在底下的編輯框輸入您的程式碼, 將這些輸入的程式碼反白,然後按下程式碼區塊按鈕即可。"/>
+        <Message Id="CodeBlock" Msgstring="程式碼區塊"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="剪下文字"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="貼上文字"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="複製文字"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="粗體"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="斜體"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="加底線"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="增加縮排"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="減少縮排"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="靠左對齊"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="置中對齊"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="靠右對齊"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="項目清單"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="編號清單"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="插入連結"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="程式碼區塊"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="文字色彩"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="背景色彩"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="表情符號"/>
+      </Messages>
+    </Language>
+    <Language code='ta-in'>
+      <Fonts>
+        <Font Name='Latha' Description='Latha' />
+      </Fonts>
+      <Messages>
+        <Message Id="1" Msgstring="Please use CTRL+C for copy, CTRL+X for cut, and CTRL+V for paste" />
+        <Message Id="2" Msgstring="To create a new code block, please enter your code in the post editor below, highlight it, and select the “Code Block” button."/>
+        <Message Id="CodeBlock" Msgstring="Code Block"/>
+        <Message Id="Cut" Group="ToolTip" Msgstring="Cut"/>
+        <Message Id="Paste" Group="ToolTip" Msgstring="Paste"/>
+        <Message Id="Copy" Group="ToolTip" Msgstring="Copy"/>
+        <Message Id="Bold" Group="ToolTip" Msgstring="Bold"/>
+        <Message Id="Italics" Group="ToolTip" Msgstring="Italics"/>
+        <Message Id="Underline" Group="ToolTip" Msgstring="Underline"/>
+        <Message Id="Indent" Group="ToolTip" Msgstring="Increase Indent"/>
+        <Message Id="Outdent" Group="ToolTip" Msgstring="Decrease Indent"/>
+        <Message Id="LeftJustify" Group="ToolTip" Msgstring="Left Justify"/>
+        <Message Id="CenterJustify" Group="ToolTip" Msgstring="Center Justify"/>
+        <Message Id="RightJustify" Group="ToolTip" Msgstring="Right Justify"/>
+        <Message Id="BulletedList" Group="ToolTip" Msgstring="Bulleted List"/>
+        <Message Id="NumberedList" Group="ToolTip" Msgstring="Numbered List"/>
+        <Message Id="Hyperlink" Group="ToolTip" Msgstring="Insert Hyperlink"/>
+        <Message Id="MCodeBlock" Group="ToolTip" Msgstring="Code Block"/>
+        <Message Id="FgColor" Group="ToolTip" Msgstring="Text Color"/>
+        <Message Id="BgColor" Group="ToolTip" Msgstring="Background Color"/>
+        <Message Id="Emoticons" Group="ToolTip" Msgstring="Emoticons"/>
+      </Messages>
+    </Language>
+  </Languages>
+</i18N>

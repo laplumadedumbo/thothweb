@@ -1,0 +1,36 @@
+.codesniptitle 
+{
+	background:#3F73B6;
+	color:white;
+	border:1px solid blue;
+	font-family:Courier;
+	font-size:10pt;
+}
+
+div.codeseg 
+{  
+    font-family:Courier;
+	font-size:10pt;
+}
+
+div.codeseg + P 
+{ 
+    text-indent: 7pt;
+    font-family:Courier;
+	font-size:10pt;
+}
+
+div.codecontent { 
+    background: #fff;
+    color: black;
+	border: solid 1px #2E595C; 
+	font-family:Courier;
+	font-size:10pt;
+	overflow: auto;
+}
+
+.Rte div 
+{
+     word-wrap: break-word; 
+     white-space: pre-wrap; 
+}

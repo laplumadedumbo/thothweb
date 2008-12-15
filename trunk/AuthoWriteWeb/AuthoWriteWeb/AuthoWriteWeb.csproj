@@ -30,10 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxControlToolkit, Version=3.0.20820.38799, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\AjaxControlToolkit\AjaxControlToolkit\bin\Release\AjaxControlToolkit.dll</HintPath>
-    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core">
@@ -100,6 +97,16 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AjaxControlToolkit\AjaxControlToolkit.csproj">
+      <Project>{B3B89160-3224-476E-9076-70B500C816CF}</Project>
+      <Name>AjaxControlToolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RichTextEditor\RichTextEditor.csproj">
+      <Project>{D0166C2E-AAD3-4EB5-8F30-F7F0C83640D6}</Project>
+      <Name>RichTextEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

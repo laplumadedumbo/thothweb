@@ -1,0 +1,63 @@
+.ColorPicker , .EmoticonPicker {border:1px solid black;padding:4px;background:white;white-space:nowrap;color:black;text-align:center}
+.ColorContainer {padding:0px;margin:0px;text-align:center;width:144px;white-space:nowrap}
+.ColorRow , .EmoticonRow {padding:0px;margin:0px;white-space:nowrap;line-height:10px;clear:left;}
+.ColorRow a {margin:1px}
+.ColorCell {display:block;float:left;border:1px solid #81807f;width:14px;height:14px;padding:1px;cursor:pointer}
+.EmoticonCell {display:block;float:left;border:1px solid #81807f;width:19px;height:19px;padding:1px;cursor:pointer}
+.RTE_INSERTLINK {background:white;border:1px solid black;padding:3px;color:black;width:255px;}
+.RTE_INSERTLINK_EDITBOX {width: 250px}
+.RTE_INSERTLINK_BUTTON {margin:3px}
+.RTE_INSERTLINK_BUTTONS {text-align:right}
+.RTE_INSERTLINK_TITLE {font-weight:bold;border-bottom:1px gray solid;margin-bottom:3px}
+ div.Rte {border:solid 1px #c3daf9;}
+
+.tbDropDownBtn
+{
+    margin:0px; 
+    top:0px;
+	font-family:courier;
+	width:141px;
+	border:0px;
+	height:22px;
+	background-position: 0px 96px;
+}
+
+.tbDropDownListContainer
+{
+	position: absolute;
+	visibility: hidden;
+	background-color: #FFFFFF;
+	width:141px;
+	border:1px solid black;
+	z-index:5;
+}
+
+.tbDropDownListItem 
+{
+	display:block;
+	padding:2px;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	font-size:80%;
+	background-color:#1F69D1;
+}
+
+.tbClassicDropDownListItem 
+{
+	display:block;
+	padding:2px;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	font-size:80%;
+	background-color:#6B7EAD;
+}
+
+
+.tbDropDownListContainer a:hover
+{
+	background:#FEF7D9;
+	color:Black;
+	border:1px solid #FFD775;
+}

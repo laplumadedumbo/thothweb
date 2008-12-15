@@ -1,0 +1,117 @@
+﻿.tabstrip
+{
+   border-color:#6593cf #000000;
+   border-width:1px medium 0px;
+   border-style:solid none none;
+   height:22px;
+   z-index:5;
+   margin:0px;
+   padding:0px;
+   width:100%;
+}
+
+.tabstrip ul
+{
+  margin-left:10px;	
+  margin-right:10px;
+  margin-top:0px;
+  border:0px;
+}
+
+.tabstrip li
+{
+   display:inline;
+   margin:0px;
+   padding:0px;
+   width:70px;
+}
+
+a.InActiveTab
+{ 
+    background-color:transparent;
+    display:inline;
+    background-image:url('<%= WebResource("AjaxControls.images.inactivetab-left-bg.gif")%>');
+    background-position: left bottom;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    margin:0px;
+    text-decoration:none;  
+    padding:0px; 
+    width:70px;
+    text-transform:none;
+    position:relative;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+    
+} 
+
+a.ActiveTab
+{
+	top:-1px;
+	display:inline;
+	background-image: url('<%= WebResource("AjaxControls.images.activetab-left-bg.gif")%>');
+	background-position: left bottom;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    margin:0px;
+    text-decoration:none;  
+    padding:0px; 
+    width:70px;
+    text-transform:none;
+    position:relative;
+    top:0px;
+    left:0px;
+    cursor:pointer;
+}
+
+
+span.InActiveTab
+{ 
+    background-color:transparent;
+    display:inline;
+    background-image:url('<%= WebResource("AjaxControls.images.inactivetab-right-bg.gif")%>');
+    background-position: right bottom;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    padding:0px;
+    margin:0px;
+    width:70px;
+} 
+
+span.ActiveTab
+{
+  background-image: url('<%= WebResource("AjaxControls.images.activetab-right-bg.gif');
+  background-color:transparent;
+  display:inline;
+  background-position: right bottom;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  padding:0px;
+  margin:0px;
+  width:70px;
+}
+
+.tabstrip em
+{
+    margin:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    width:50px;
+}
+
+.tabTxt 
+{
+    background-color:transparent;
+    color:rgb(8,55,114);
+    font-family:tahoma,arial,helvetica;
+    font-size:11px;
+    font-weight:bold;
+    vertical-align:baseline;
+    text-align:left;
+    width:70px;
+    margin:0px;
+    padding:0px;
+}

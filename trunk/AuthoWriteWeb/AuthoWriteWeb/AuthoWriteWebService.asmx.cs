@@ -1,8 +1,10 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Reflection;
 using System.Text;
 using System.Web.Services;
 using System.Web.Script.Services;
+using log4net;
 
 namespace AuthoWriteWeb
 {
@@ -17,22 +19,31 @@ namespace AuthoWriteWeb
     public class AuthoWriteWebService : WebService
     {
 
-        
+
         [WebMethod]
         public string StructuredQuery(string inputText)
         {
-            var qp = new QueryProcessor(inputText);
             var sb = new StringBuilder();
 
-            sb.Append(@"<ul>");
 
-            foreach (string searchTerm in qp.SearchTerms)
+            try
             {
-                sb.Append(@"<li>" + searchTerm + @"</li>");
+                var qp = new QueryProcessor(inputText);
+
+                sb.Append(@"<ul>");
+
+                foreach (string searchTerm in qp.SearchTerms)
+                {
+                    sb.Append(@"<li>" + searchTerm + @"</li>");
+                }
+
+                sb.Append(@"</ul>");
             }
-
-            sb.Append(@"</ul>");
-
+            catch (Exception ex)
+            {
+                ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+                Log.Error(ex.StackTrace);
+            }
             return sb.ToString();
         }
         [WebMethod]
